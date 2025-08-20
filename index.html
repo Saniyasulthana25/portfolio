@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* RESET */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    /* NAVBAR */
+    nav {
+      background: #0077ff;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    /* SECTIONS */
+    section { padding: 50px 20px; text-align: center; }
+    h2 { margin-bottom: 20px; color: #0077ff; }
+
+    /* ABOUT */
+    #about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    /* PROJECTS */
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .project-card {
+      background: #f4f4f4;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project-card:hover { transform: translateY(-5px); }
+    .project-card h3 { margin-bottom: 10px; }
+    .project-card p { font-size: 14px; margin-bottom: 15px; }
+    .project-card a {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .live-btn { background: #0077ff; color: white; }
+    .git-btn { background: black; color: white; }
+
+    /* SKILLS */
+    .skills-list {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background: #0077ff;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+
+    /* CONTACT */
+    #contact a {
+      display: block;
+      margin: 10px 0;
+      color: #0077ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">My Portfolio</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="My Photo">
+    <p>Hi, I’m Saniya Sulthana, a beginner web developer passionate about building simple and useful web apps. 
+       I love learning HTML, CSS, and JavaScript and improving step by step.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <!-- To-Do App -->
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>A simple task manager app built with HTML, CSS, and JavaScript.</p>
+        <a href="projects/todo/index.html" target="_blank" class="live-btn">Live Demo</a>
+        <a href="https://github.com/Saniyasulthana25/todo-app" target="_blank" class="git-btn">GitHub</a>
+      </div>
+
+      <!-- Calculator -->
+      <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A basic calculator for simple arithmetic operations.</p>
+        <a href="projects/calculator/index.html" target="_blank" class="live-btn">Live Demo</a>
+        <a href="https://github.com/Saniyasulthana25/calculator" target="_blank" class="git-btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Git</div>
+      <div class="skill">VS Code</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to get in touch, here are my links:</p>
+    <a href="mailto:saniyaa2501@gmail.com">📧 saniyaa2501@gmail.com
+</a>
+    <a href="https://github.com/Saniyasulthana25" target="_blank">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/saniya-sulthana25/" target="_blank">💼 LinkedIn</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Saniya Sulthana. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
