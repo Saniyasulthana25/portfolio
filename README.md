@@ -46,7 +46,7 @@ Built using *HTML, CSS, and JavaScript*.
 ---
 
 ## 🚀 Live Demo
-[Click here to view my Portfolio](https://saniyasutthana25.github.io/portfolio/)
+[Click here to view my Portfolio](http://127.0.0.1:5500/Portfolio/index.html)
 
 ---
 
@@ -55,5 +55,3 @@ Built using *HTML, CSS, and JavaScript*.
 
 ---
 
-## 📂 GitHub Repo
-[Portfolio Repository](https://github.com/saniyasutthana25/portfolio)
