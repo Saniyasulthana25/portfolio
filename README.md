@@ -22,7 +22,6 @@ Built using *HTML, CSS, and JavaScript*.
 ---
 
 ## 🚀 Live Demo
-[Click here to view my Portfolio](# 🌐 My Portfolio
 
 This is my personal *Portfolio Website* to showcase my projects, skills, and contact details.  
 Built using *HTML, CSS, and JavaScript*.
